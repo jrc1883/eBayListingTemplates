@@ -9,5 +9,4 @@ function submitted(event) {
   win.focus();
 }
 
-f.addEventListener('submit', function(submitted){
-    evt.preventDefault()});
+f.addEventListener('submit', submitted);
