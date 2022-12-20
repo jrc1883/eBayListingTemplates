@@ -7,3 +7,9 @@
 .nav-link {position: relative; top:4px;}
 
 /* SEARCH */
+.search {padding:0; margin:0;}
+.search a {text-decoration: none!important; color:inherit;}
+.search-field {width:250px; height:50px; float:right; font-family: 'Open Sans', serif; background: repeating-linear-gradient(45deg, #fff, #fff 2px, #efefef 2px, #efefef 4px); color:#a0a0a0!important; line-height:50px; margin:0; padding:0 20px; border:none; text-align: left}
+.search-button {float:right; width:50px; height:50px; background: repeating-linear-gradient(45deg, #333, #333 2px, #3f3f3f 2px, #3f3f3f 4px); color:#fff; font-size:20px; text-align:center; margin:0; padding:0;border:none;}
+.search-button i {line-height:50px}
+.search-button:hover {background:#666666; color:#fff;}
