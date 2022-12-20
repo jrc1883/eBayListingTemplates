@@ -4,7 +4,7 @@ const eBay = 'https://www.ebay.com/sch/i.html?_dkr=1&iconV2Request=true&_blrs=re
 
 function submitted(event) {
   event.preventDefault();
-  const url = eBay + '+' + q.value;
+  const url = eBay + q.value;
   const win = window.open(url, '_blank');
   win.focus();
 }
